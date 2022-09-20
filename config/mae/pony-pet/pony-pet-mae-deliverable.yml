@@ -1,0 +1,20 @@
+apiVersion: carto.run/v1alpha1
+kind: Deliverable
+metadata:
+  name: pony-pet
+  namespace: mae
+  labels:
+    app.kubernetes.io/component: deliverable
+    app.tanzu.vmware.com/deliverable-type: web
+spec:
+  params:
+  - name: gitops_ssh_secret
+    value: gitops-ssh
+  - name: gitops_sub_path
+    value: config/mae/pony-pet
+  source:
+    git:
+      url: ssh://git@github.com/Mpluya/config-pet-clinic.git
+      ref:
+        branch: main
+
