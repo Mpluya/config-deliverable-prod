@@ -14,7 +14,7 @@ spec:
     value: config/rehan/polaris-demo
   source:
     git:
-      url: https://github.com/Mpluya/config-deliverable-prod.git
+      url: https://github.com/Mpluya/config-polaris-demo.git
       ref:
         branch: main
 
