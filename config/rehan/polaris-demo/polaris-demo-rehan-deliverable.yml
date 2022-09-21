@@ -6,7 +6,7 @@ metadata:
   labels:
     app.kubernetes.io/component: deliverable
     app.tanzu.vmware.com/deliverable-type: web
-    app.tanzu.vmware.com/delivery-commit-sha: main/2e1f99d141845e9a432d787d402ecb6abaed6c5a
+    app.tanzu.vmware.com/delivery-commit-sha: main_9fa1eb92ed9cc9a85af2ac4f423079fc372fedc7
 spec:
   params:
   - name: gitops_ssh_secret
